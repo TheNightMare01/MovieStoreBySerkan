@@ -2,10 +2,8 @@
 
 namespace MovieStore.DL.Interfaces
 {
-
-	public interface IActorRepository
-	{
-        IEnumerable<Actor> GetActorsByIds(IEnumerable<int> actors);
+    public interface IActorRepository
+    {
         Actor? GetById(int id);
-	}
+    }
 }

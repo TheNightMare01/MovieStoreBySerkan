@@ -2,8 +2,8 @@
 
 namespace MovieStore.Models.Responses
 {
-	public class GetFullMovieDetailsReponse
-	{
-		IEnumerable<MovieView> Movies { get; set; } = [];
-	}
+    public class GetFullMovieDetailsResponse
+    {
+        IEnumerable<MovieView> Movies { get; set; } = [];
+    }
 }

@@ -1,4 +1,4 @@
-﻿﻿using MovieStore.Models.Views;
+﻿using MovieStore.Models.Views;
 
 namespace MovieStore.BL.Interfaces
 {
